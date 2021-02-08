@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{9e3d4da9-e5f3-4091-9c96-6c7bd3ca4ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{e046418b-6556-4f64-b208-f01adb160f29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\core.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\sdk.h" />
+    <ClInclude Include="offsets\offsets.h" />
+    <ClInclude Include="sdk\console\console.h" />
+    <ClInclude Include="sdk\memory\memory.h" />
+    <ClInclude Include="sdk\vector\vec3_t\vec3_t.h" />
+    <ClInclude Include="sdk\vector\vec2_t\vec2_t.h" />
+    <ClInclude Include="sdk\utilities\utilities.h" />
+    <ClInclude Include="interfaces\interfaces.h" />
+    <ClInclude Include="render\render.h" />
+    <ClInclude Include="sdk\vector\matrix\matrix.h" />
+    <ClInclude Include="sdk\valve\color\color.h" />
+    <ClInclude Include="sdk\valve\i_base_client\i_base_client.h" />
+    <ClInclude Include="sdk\valve\i_engine_vgui\i_engine_vgui.h" />
+    <ClInclude Include="sdk\valve\i_surface\i_surface.h" />
+    <ClInclude Include="sdk\valve\interface_registration\interface_registration.h" />
+    <ClInclude Include="sdk\valve\iv_engine_client\iv_engine_client.h" />
+    <ClInclude Include="sdk\valve\player_info_t\player_info_t.h" />
+    <ClInclude Include="sdk\valve\vertex\vertex.h" />
+    <ClInclude Include="sdk\valve\iv_debug_overlay\iv_debug_overlay.h" />
+    <ClInclude Include="sdk\valve\recv\recv.h" />
+    <ClInclude Include="sdk\valve\c_global_vars_base\c_global_vars_base.h" />
+    <ClInclude Include="sdk\valve\i_console\i_console.h" />
+    <ClInclude Include="sdk\valve\i_app_system\i_app_system.h" />
+    <ClInclude Include="sdk\vmt\vmt.h" />
+    <ClInclude Include="hooks\hooks.h" />
+    <ClInclude Include="input_helper\input_helper.h" />
+    <ClInclude Include="menu\menu.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="core\core.cpp" />
+    <ClCompile Include="entrypoint\entrypoint.cpp" />
+    <ClCompile Include="hooks\hooks.cpp" />
+  </ItemGroup>
+</Project>
